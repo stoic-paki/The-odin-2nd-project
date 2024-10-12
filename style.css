@@ -125,18 +125,16 @@ header{
 .section1 .img{
     max-width: fit-content;
     max-height: fit-content;
-    border: 1px white solid;
-    display: flex;
-    align-items: center;
-    position: relative;
+    /* border: 1px white solid; */
+    position: relative; 
     right: 6em;
+    box-sizing: border-box;
 }
 
 .section1 .img img{
     height: 40vh;
     width: 33vw;
-    /* margin-right: 6em; */
-    text-align: center;
+    border: 1px solid white;
 }
 
 .section2{
