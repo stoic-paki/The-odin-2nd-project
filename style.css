@@ -122,10 +122,21 @@ header{
     color: #F9FAF8;
 }
 
+.section1 .img{
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 6em;
+}
+
 .section1 .img img{
     height: 40vh;
     width: 33vw;
-    margin-right: 6em;
+    /* margin-right: 6em; */
+    text-align: center;
 }
 
 .section2{
