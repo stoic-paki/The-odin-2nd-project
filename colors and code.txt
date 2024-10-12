@@ -1,0 +1,6 @@
+Color used in the project
+#1F2937
+#F9FAF8
+48PX WEIGHT 900
+#e5e7eb
+#3882F6

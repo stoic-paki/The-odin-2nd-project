@@ -46,20 +46,20 @@ header{
     margin: 1em;
     font-size: 18px;
     font-family: "Roboto";
-    height: 1.7em;
-    width: 4.2em;
+    height: 1.9em;
+    width: 4.4em;
 }
 
 .tabs .items:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: blue;
+    background:#11171f ;
     margin: 1em;
     border-radius: 12px;
     font-family: roboto;
-    height: 1.7em;
-    width: 4.2em;
+    height: 1.9em;
+    width: 4.4em;
 }
 
 .section1{
@@ -106,10 +106,203 @@ header{
     border: none;
     border-radius: 3px;
     margin-top: 1em;
+    /* border: white 2px solid; */
+    color: #F9FAF8;
+}
+
+.signup button:hover{
+    background: #3869b7;
+    box-shadow: none;
+    width: 5.5em;
+    height: 2.7em;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1em;
+    /* border: white 2px solid; */
+    color: #F9FAF8;
 }
 
 .section1 .img img{
     height: 40vh;
     width: 33vw;
     margin-right: 6em;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    /* border: 1px solid red; */
+}
+
+.heading{
+    font-family: "Roboto";
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    margin:1em ;
+    /* border: blue solid 1px; */
+    max-width: 12vw;
+    box-sizing: border-box;
+}
+
+.card-item p{
+    /* position: relative;
+    left: 1%; */
+    text-align: center;
+    margin-top: 7px;
+    color: #a2a5ab;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+.card-item img{
+    text-align: center;
+    line-height: 16.5vh;
+    box-sizing: border-box;
+    /* margin: 1em; */
+    height: 18vh;
+    width: 12vw;
+    border: solid #3882F6 2px;
+    border-radius: 12px;
+}
+
+.section3 {
+    height: 60vh;
+    /* border: solid red 1px; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #e5e7eb;
+    box-sizing: border-box;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style:italic;
+    font-family: "Roboto";
+    /* border: blue solid 1px; */
+    max-width: 80vw;
+
+}
+
+.by{
+    /* border: 1px solid red; */
+    font-weight: 900;
+    font-family: "Roboto";
+    color: #1F2937;
+    width: fit-content;
+    font-size: 18px;
+    position: relative;
+    left: 70%; 
+} 
+
+.section4{
+    height: 50vh;
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    border: 1px blue solid;
+    min-width: 70em;
+    min-height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #3882F6;
+    border-radius: 1em;
+}
+
+.bold{
+    /* text-align: center; */
+    color: #F9FAF8;
+}
+
+.blue-box p {
+    /* text-align:; */
+    color: #F9FAF8;
+}
+
+.signup2{
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+    min-height: fit-content;
+    position: relative;
+    right: 5.2em;
+}
+.signup2 button{
+    background: #3882F6;
+    box-shadow: none;
+    width: 5.5em;
+    height: 2.7em;
+    border: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    color:#F9FAF8 ;
+}
+
+.signup2 button:hover{
+    background: #2457a7;
+    box-shadow: none;
+    width: 5.5em;
+    height: 2.7em;
+    border: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    color:#F9FAF8 ;
+}
+
+.bluehead{
+    margin-left:5em;
+}
+
+.bluehead .bold{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.bluehead p{
+    color: #F9FAF8;
+    font-family: "Roboto";
+}
+
+footer{
+    height: 10vh;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-family: "Roboto";
 }
